@@ -1,8 +1,8 @@
-class sensei < Formula
+class Sensei < Formula
   desc "A small macOS tool to read sensor information"
-  homepage "https://github.com/DrPsychick/sensei"
-  url "https://github.com/DrPsychick/sensei/archive/sensei-v0.0.1.tar.gz"
-  sha256 "85cc828a96735bdafcf29eb6291ca91bac846579bcef7308536e0c875d6c81d7"
+  homepage "https://github.com/DrPsychick/homebrew-sensei"
+  url "https://github.com/DrPsychick/homebrew-sensei/archive/v0.0.1.tar.gz"
+  sha256 "f02b86158b3fa9beb4086c3d804a4815d3640d9aab97d475dfdae82e87bbfe19"
   license "GPL3"
 
   depends_on "cmake" => :build
