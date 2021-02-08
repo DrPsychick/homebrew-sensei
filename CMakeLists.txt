@@ -18,3 +18,5 @@ add_executable(sensei sensei.m)
 # add libraries
 target_link_libraries(sensei ${FOUNDATION})
 target_link_libraries(sensei ${IOKIT})
+
+install(TARGETS sensei RUNTIME DESTINATION bin)

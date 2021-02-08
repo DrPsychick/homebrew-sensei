@@ -11,7 +11,8 @@ class Sensei < Formula
 
   def install
     system "cmake", ".", "-GNinja", *std_cmake_args
-    system "ninja", "install"
+    system "ninja", "-v"
+    system "ninja", "install", "-v"
   end
 
   test do
