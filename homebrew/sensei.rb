@@ -1,7 +1,7 @@
 class sensei < Formula
   desc "A small macOS tool to read sensor information"
   homepage "https://github.com/DrPsychick/sensei"
-  url "https://github.com/DrPsychick/sensei/archive/sensei-0.1.tar.gz"
+  url "https://github.com/DrPsychick/sensei/archive/sensei-v0.0.1.tar.gz"
   sha256 "85cc828a96735bdafcf29eb6291ca91bac846579bcef7308536e0c875d6c81d7"
   license "GPL3"
 
