@@ -7,7 +7,7 @@ class Sensei < Formula
 
   depends_on "cmake" => :build
   depends_on "ninja" => :build
-  depends_on macos: :high_sierra
+  depends_on macos:
 
   def install
     system "cmake", ".", "-GNinja", *std_cmake_args
